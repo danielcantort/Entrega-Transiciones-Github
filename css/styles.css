@@ -1,0 +1,407 @@
+/* CSS HEX */
+/* --dark-turquoise: #37cbd9ff;
+--portland-orange: #f46036ff;
+--black-olive: #30332eff;
+--selective-yellow: #fcba04ff;
+--snow: #fffbfeff; */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.8em;
+}
+p {
+    font-size: 1em;
+}
+ul {
+    list-style: none;
+}
+li {
+    font-size: 1.3em;
+}
+
+button {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: #F46036;
+}
+
+button:hover {
+    background-color: #FCBA04;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento {
+    color: #FCBA04;
+}
+
+header {
+    background-color: rgba(255,255,255,0.9);
+}
+
+header .logo {
+    margin: 0;
+    height: 140px;
+    padding: 15px 30px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #30332E;
+    font-size: 18px;
+}
+
+header a:hover {
+    color: #F46036;
+}
+
+/* Hero */
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    color: white;
+    background-image:linear-gradient(0deg,
+    rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("/MiloKids-DanielCantor-Desafio-03/Assets/Images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Suscribe */
+#suscribete {
+    background-color: #30332E;
+    color: white;
+    text-align: center;
+    padding: 40px 12px ;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container form a {
+    text-decoration: none;
+    color: #F46036;
+}
+
+.btn-suscribe {
+    margin-top: 20px;
+}
+
+/* Catalogo */
+#catalogo {
+    background-color: #FFFBFE;
+    text-align: center;
+}
+
+#catalogo .container {
+    padding: 80px 12px;
+}
+
+#catalogo h2 {
+    margin-top: 0;
+    font-size: 2.4em;
+}
+
+#catalogo p {
+    display: none;
+}
+
+
+.card-1 {
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("/MiloKids-DanielCantor-Desafio-03/Assets/Images/pexels-dominika-roseclay-2090903.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-2 {
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("/MiloKids-DanielCantor-Desafio-03/Assets/Images/jogger-catalogo-001.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+.card-3 {
+    background-image: linear-gradient(0deg,
+    rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    ,url("Assets/Images/jogger-catalogo-001.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+#blog {
+    background-color: #FCBA04;
+    padding: 55px 12px; 
+    text-align: center;
+}
+
+#blog .categorias-blog {
+    margin-right: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFFBFE;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer p {
+    margin: 0;
+    color: gray;
+    padding: 12px;
+}
+
+footer .container {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container a img {
+    height: 40px;
+    margin: 20px 15px;
+}
+
+@media (min-width:720px) {
+
+    header {
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }
+
+    #blog .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #blog .img-container {
+        background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/blog-img.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+        border-radius: 5px;
+        box-shadow:  0px 5px 42px -24px rgba(0,0,0,0.75);;
+    }
+
+    #blog .texto {
+        width: 50%;
+        margin-top: 50px;
+        text-align: initial;
+        padding-left: 50px;
+        font-size: 20px;
+        max-width: 560px;
+    }
+
+    #blog h2 {
+        margin-top: 0;
+    }
+
+    #blog .btn-blog:hover {
+        background-color:#37cbd9ff;
+        color: white;
+    }
+
+    #catalogo .productos {
+        display: flex;
+        justify-content: center;
+    }
+
+    #catalogo .card-1 {
+        width: 400px;
+        box-shadow: 0px 5px 42px -24px rgba(0,0,0,0.7);
+    }
+
+    #catalogo .card-2 {
+        width: 400px;
+        box-shadow: 0px 5px 42px -24px rgba(0,0,0,0.7);
+    }
+
+    #catalogo .card-3 {
+        width: 400px;
+        box-shadow:0px 5px 42px -24px rgba(0,0,0,0.7);
+    }
+}
+
+/* Catalogo Grids */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background-color:  #f46036ff;
+    color: #fffbfeff;
+    padding: 15px;
+}
+.galeria{
+    height: auto;
+    width: 100%;
+    background-color: #fcba04ff;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(16, 16, 16);
+}
+
+.img{
+    border: 1px solid white;
+    min-height: 130px;
+    width: 100%;
+}
+
+.img1{
+    background-image:
+    url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/camiseta-catalogo-001.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2{
+    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/chaqueta-catalogo-001.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/jogger-catalogo-001.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img4{
+    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/chaqueta-catalogo-002.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img5{
+    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/jogger-catalogo-002.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img6{
+    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/camiseta-catalogo-001.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img7{
+    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/jogger-catalogo-001.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img8{
+    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/chaqueta-catalogo-002.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px){
+    .galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .img1{
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+}
+
