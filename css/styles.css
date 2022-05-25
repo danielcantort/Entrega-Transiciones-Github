@@ -106,7 +106,7 @@ header a:hover {
     color: white;
     background-image:linear-gradient(0deg,
     rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-    url("/MiloKids-DanielCantor-Desafio-03/Images/hero.jpg");
+    url("/Images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -159,7 +159,7 @@ header a:hover {
 .card-1 {
     background-image: linear-gradient(0deg,
     rgba(0,0,0,0.5),rgba(0,0,0,0.5))
-    ,url("/MiloKids-DanielCantor-Desafio-03/Images/pexels-dominika-roseclay-2090903.jpg");
+    ,url("/Images/pexels-dominika-roseclay-2090903.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -172,7 +172,7 @@ header a:hover {
 .card-2 {
     background-image: linear-gradient(0deg,
     rgba(0,0,0,0.5),rgba(0,0,0,0.5))
-    ,url("/MiloKids-DanielCantor-Desafio-03/Assets/Images/jogger-catalogo-001.jpg");
+    ,url("/Images/jogger-catalogo-001.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -185,7 +185,7 @@ header a:hover {
 .card-3 {
     background-image: linear-gradient(0deg,
     rgba(0,0,0,0.5),rgba(0,0,0,0.5))
-    ,url("Assets/Images/jogger-catalogo-001.jpg");
+    ,url("/Images/jogger-catalogo-001.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
@@ -256,7 +256,7 @@ footer .container a img {
     }
     
     #blog .img-container {
-        background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/blog-img.jpg);
+        background-image: url(/Images/blog-img.jpg);
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -339,49 +339,49 @@ h2{
 
 .img1{
     background-image:
-    url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/camiseta-catalogo-001.jpg);
+    url(/Images/camiseta-catalogo-001.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img2{
-    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/chaqueta-catalogo-001.jpg);
+    background-image: url(/Images/chaqueta-catalogo-001.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img3{
-    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/jogger-catalogo-001.jpg);
+    background-image: url(/Images/jogger-catalogo-001.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img4{
-    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/chaqueta-catalogo-002.jpg);
+    background-image: url(/Images/chaqueta-catalogo-002.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img5{
-    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/jogger-catalogo-002.jpg);
+    background-image: url(/Images/jogger-catalogo-002.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img6{
-    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/camiseta-catalogo-001.jpg);
+    background-image: url(/Images/camiseta-catalogo-001.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img7{
-    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/jogger-catalogo-001.jpg);
+    background-image: url(/Images/jogger-catalogo-001.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img8{
-    background-image: url(/MiloKids-DanielCantor-Desafio-03/Assets/Images/chaqueta-catalogo-002.jpg);
+    background-image: url(/Images/chaqueta-catalogo-002.jpg);
     background-size: cover;
     background-position: center;
 }
